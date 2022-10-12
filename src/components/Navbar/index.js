@@ -3,15 +3,21 @@ import React from "react";
 const fancyHeader = (props) => {
     return (
         <>
-            <h1> This is fancyHeader:
+        <div className="container">
+        <nav> 
+            <image href="" src="" alt="brand" className="brandLogo"> </image>
+
                 <ul>
-                    <li onClick={()=>{props.changePage("Home")}}>Home</li>
-                    <li onClick={()=>{props.changePage("About")}}>About</li>
-                    <li onClick={()=>{props.changePage("Skills")}}>Skills</li>
-                    <li onClick={()=>{props.changePage("Portfolio")}}>Portfolio</li>
-                    <li onClick={()=>{props.changePage("Contact")}}>Contact</li>
+                    <li><a href="#home" onClick={()=>{props.changePage("Home")}}>Home</a></li>
+                    <li><a href="#about" onClick={()=>{props.changePage("About")}}>About</a></li>
+                    <li><a href="#skills" onClick={()=>{props.changePage("Skills")}}>Skills</a></li>
+                    <li><a href="#portfolio" onClick={()=>{props.changePage("Portfolio")}}>Portfolio</a></li>
+                    <li><a href="#contact" onClick={()=>{props.changePage("Contact")}}>Contact</a></li>
                 </ul>
-            </h1>
+            </nav>
+
+        </div>
+
 
         </>
     )
