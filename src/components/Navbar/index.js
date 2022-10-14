@@ -1,20 +1,26 @@
 import React from "react";
-import './navbar.css';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+// import './navbar.css';
+
 const fancyHeader = (props) => {
     return (
         <>
-            <div className="container">
-                <nav className="navbar">
-                   {/* <p> <img href="" src="https://raw.githubusercontent.com/Khanh-T-Tran/myportfolio-react/main/src/assets/logos/brand/KT-logo-vanilla-512x.png" alt="logobrand"/></p> */}
-                    <ul>
-                        <li><a href="#home" onClick={() => { props.changePage("Home") }}>Home</a></li>
-                        <li><a href="#about" onClick={() => { props.changePage("About") }}>About</a></li>
-                        <li><a href="#skills" onClick={() => { props.changePage("Skills") }}>Skills</a></li>
-                        <li><a href="#portfolio" onClick={() => { props.changePage("Portfolio") }}>Portfolio</a></li>
-                        <li><a href="#contact" onClick={() => { props.changePage("Contact") }}>Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <Navbar collapseOnSelect bg="top" expand="lg" variant="dark">
+                <Container fluid>
+                    <Navbar.Brand href="#home" onClick={() => { props.changePage("Home") }}>Khanh Tran</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="justify-content-end flex-grow-1 pe-3">
+                            <Nav.Link href="#about" onClick={() => { props.changePage("About") }}>About</Nav.Link>
+                            <Nav.Link href="#skills" onClick={() => { props.changePage("Skills") }}>Skills</Nav.Link>
+                            <Nav.Link href="#portfolio" onClick={() => { props.changePage("Portfolio") }}>Portfolio</Nav.Link>
+                            <Nav.Link href="#contact" onClick={() => { props.changePage("Contact") }}>Contact</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
         </>
     )
 }

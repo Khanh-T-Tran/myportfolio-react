@@ -1,0 +1,22 @@
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: aliceblue;
+    background-color: black;
+}
+
+.icons {
+    color: aliceblue;
+}
+
+.social-media-icons-white a {
+    color: rgba(255, 255, 255, 0.509);
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.social-media-icons-white a:hover {
+    color: rgb(255, 255, 255);
+}
+
