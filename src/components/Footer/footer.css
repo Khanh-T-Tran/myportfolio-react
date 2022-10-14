@@ -6,17 +6,13 @@
     background-color: black;
 }
 
-.icons {
-    color: aliceblue;
-}
-
 .social-media-icons-white a {
-    color: rgba(255, 255, 255, 0.509);
+    color: rgba(255, 255, 255, 0.292);
     font-size: 1.5rem;
     margin: 10px;
 }
 
 .social-media-icons-white a:hover {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.565);
 }
 

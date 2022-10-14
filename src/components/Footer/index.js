@@ -23,7 +23,6 @@ const stinkyFooter = () => {
                     </a>
                 </div>
             </footer>
-
         </>
     )
 }
