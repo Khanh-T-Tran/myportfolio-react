@@ -1,9 +1,9 @@
-const contacPage = () => {
+const contactPage = () => {
     return (
         <>
-        <h1> This is contacPage</h1>
+        <h1> This is contactPage</h1>
         </>
     )
 }
 
-export default contacPage;
+export default contactPage;

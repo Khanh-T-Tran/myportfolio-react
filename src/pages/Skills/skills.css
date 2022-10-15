@@ -1,0 +1,74 @@
+.hero-image {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: 200px;
+    grid-template-areas:
+      ". a a ."
+      ". a a .";
+
+    position: relative;
+    width: 100%;
+    height: 700px;
+    display: grid;
+    align-items: center;
+}
+
+.cube {
+    
+    margin-left: 500px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    transform: rotate(-25deg) skew(25deg) ;
+}
+
+.cube::before {
+    position:absolute;
+    content:"";
+    width: 20px;
+    height: 50px;  
+    transform: skewY(-45deg);
+    left: -20px;
+    bottom: -10px;
+}
+
+.cube::after {
+    position:absolute;
+    content:"";
+    width: 100%;
+    height: 20px; 
+    transform: skewX(-45deg);
+    left: -10px;
+    bottom: -20px;
+}
+
+/* This is the image for the cube */
+ #mongo {
+     /* grid-area: a; */
+  /* align-self: center; */
+  /* justify-self: center; */
+    background-image: url("../../assets/logos/M-green-TKdesign-512x.png");
+    background-size: cover;
+    box-shadow: -40px 40px 10px rgb(178, 195, 181);
+ }
+ #mongo::before {
+    background-color: rgb(47, 111, 60);
+ }
+ #mongo::after {
+    background-color: rgb(76, 139, 62);
+ }
+
+ #express {
+    left: 10px;
+    bottom: 150px;
+    background-image: url("../../assets/logos/M-green-TKdesign-512x.png");
+    background-size: cover;
+    box-shadow: -40px 40px 10px rgb(195, 178, 178);
+ }
+ #express::before {
+    background-color: rgb(111, 47, 47);
+ }
+ #express::after {
+    background-color: rgba(139, 62, 62, 0.503);
+ }

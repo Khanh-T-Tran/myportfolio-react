@@ -1,7 +1,23 @@
+import './skills.css';
+
 const skillsPage = () => {
+
     return (
         <>
-        <h1> This is skillsPage</h1>
+            <main>
+                <div>
+                    <h1>
+                        this is my skills
+                    </h1>
+
+                </div>
+                <div className='hero-image'>
+                    <div className='cube' id='mongo'></div>
+                    <div className='cube' id='express'></div>
+                    <div className='cube' id='react'></div>
+                    <div className='cube' id='nodejs'></div>
+                </div>
+            </main>
         </>
     )
 }

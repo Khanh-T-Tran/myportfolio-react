@@ -13,6 +13,7 @@ const fancyHeader = (props) => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="justify-content-end flex-grow-1 pe-3">
+                            <Nav.Link href="#home" onClick={() => { props.changePage("Home") }}>Home</Nav.Link>
                             <Nav.Link href="#about" onClick={() => { props.changePage("About") }}>About</Nav.Link>
                             <Nav.Link href="#skills" onClick={() => { props.changePage("Skills") }}>Skills</Nav.Link>
                             <Nav.Link href="#portfolio" onClick={() => { props.changePage("Portfolio") }}>Portfolio</Nav.Link>

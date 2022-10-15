@@ -3,11 +3,11 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import "../Footer/footer.css";
 
-function Copyright() {
+const Copyright = () => {
     return (
         <a className="copyright" href="https://github.com/Khanh-T-Tran" target="_blank" rel="noreferrer"> Copyright © KhanhTran {new Date().getFullYear()} </a>
     )
-}
+};
 
 const stinkyFooter = () => {
     return (
@@ -25,6 +25,6 @@ const stinkyFooter = () => {
             </footer>
         </>
     )
-}
+};
 
 export default stinkyFooter;
