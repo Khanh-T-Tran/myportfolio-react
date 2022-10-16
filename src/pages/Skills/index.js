@@ -5,12 +5,6 @@ const skillsPage = () => {
     return (
         <>
             <main>
-                <div>
-                    <h1>
-                        this is my skills
-                    </h1>
-
-                </div>
                 <div className='hero-image'>
                     <div className='cube' id='mongo'></div>
                     <div className='cube' id='express'></div>

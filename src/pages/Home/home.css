@@ -1,9 +1,8 @@
 body {
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     position: relative;
     background-image: url("../../assets/images/backgroundimage.jpg");
     background-size: 100% 100vh;
-    position: relative;
     min-height: 100vh;
 }
