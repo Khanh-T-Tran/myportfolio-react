@@ -1,8 +1,9 @@
-body {
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    position: relative;
-    background-image: url("../../assets/images/backgroundimage.jpg");
+/* this one for adjust background image */
+img.img-fluid {
     background-size: 100% 100vh;
     min-height: 100vh;
+}
+/* this one for stop page from scrolling */
+body {
+    overflow: hidden;
 }

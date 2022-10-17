@@ -1,15 +1,13 @@
 .hero-image {
     position: relative;
     width: 100%;
-    height: 100%; 
-    /* background-color: rgb(76, 183, 183); */
+    height: 100%;
     margin-top: 5%;
     margin-left: 10%;
 }
 
 /* this is the cube dimentions */
 .cube {  
-    /* margin-left: 10%; */
     position: absolute;
     width: 50px;
     height: 50px;
@@ -87,4 +85,11 @@
  }
  #nodejs::after {
     background-color: rgba(165, 182, 161, 0.368);
+ }
+
+ body {
+   min-height: 100%;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
  }

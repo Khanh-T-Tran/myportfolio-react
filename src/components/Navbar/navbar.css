@@ -1,13 +1,24 @@
-/* .fancyNav {
-    background-color: black;
-    
-} */
+.fancyNav {
+background-color: black;
+}
 
-.brandLogo {
-    /* background-image: url("../../assets/logos/dark/TK-logo-dark-512x\ \(2\).png"); */
-    /* background-size: cover; */
-    /* height: auto; */
-    /* width: auto; */
-    /* max-height: 7px; */
-    max-width: 50px;
+.brandLogo {   
+    max-width: 70px;
+    
 } 
+
+.logoImage.img-thumbnail{
+    border-radius: 20px;
+    padding: 1px;
+    background-color: rgb(32, 37, 33);
+    box-shadow: -5px 5px 10px rgba(236, 246, 236, 0.72);
+}
+
+.tabs {
+    box-shadow: -5px 5px 10px rgba(236, 246, 236, 0.72);
+    border-radius: 10px;
+}
+
+/* h2.about-text {
+    border-color: black;
+} */
