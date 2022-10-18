@@ -6,7 +6,7 @@ const homePage = () => {
     return (
         <>
             <div>
-                <Image src="https://raw.githubusercontent.com/Khanh-T-Tran/myportfolio-react/main/src/assets/images/backgroundimage.jpg" fluid />
+                <Image src="https://raw.githubusercontent.com/Khanh-T-Tran/myportfolio-react/main/src/assets/images/backgroundimage-light.jpg" fluid />
             </div>
         </>
     )

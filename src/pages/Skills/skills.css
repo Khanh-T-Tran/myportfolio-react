@@ -1,95 +1,118 @@
-.hero-image {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin-top: 5%;
-    margin-left: 10%;
+div.hero-image {
+   height: 100vh;
+   width: 100%;
+   background-color: #1c1c1c;
 }
 
 /* this is the cube dimentions */
-.cube {  
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    transform: rotate(-25deg) skew(25deg) ;
+.cube {
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   transform: rotate(-25deg) skew(25deg);   
 }
 
 .cube::before {
-    position:absolute;
-    content:"";
-    width: 20px;
-    height: 50px;  
-    transform: skewY(-45deg);
-    left: -20px;
-    bottom: -10px;
+   position: absolute;
+   content: "";
+   width: 20px;
+   height: 50px;
+   transform: skewY(-45deg);
+   left: -20px;
+   bottom: -10px;
 }
 
 .cube::after {
-    position:absolute;
-    content:"";
-    width: 100%;
-    height: 20px; 
-    transform: skewX(-45deg);
-    left: -10px;
-    bottom: -20px;
+   position: absolute;
+   content: "";
+   width: 100%;
+   height: 20px;
+   transform: skewX(-45deg);
+   left: -10px;
+   bottom: -20px;
 }
 
 /* This is the image for the cubes */
 /* Mongo */
- #mongo {
-    background-image: url("../../assets/logos/dark/M-alone-TKdesign-512x\ \(3\).png");
-    background-size: cover;
-    box-shadow: -40px 40px 10px rgb(35, 38, 38);
- }
- #mongo::before {
-    background-color: rgba(66, 67, 66, 0.374);
- }
- #mongo::after {
-    background-color: rgba(165, 182, 161, 0.368);
- }
-/* Express */
- #express {
-    margin-top: 120px;
-    background-image: url("../../assets/logos/dark/E-alone-TKdesign-512x\ \(2\).png");
-    background-size: cover;
-    box-shadow: -40px 40px 10px rgb(35, 38, 38);
- }
- #express::before {
-    background-color: rgba(66, 67, 66, 0.374);
- }
- #express::after {
-    background-color: rgba(165, 182, 161, 0.368);
- }
- /* React */
- #react {
-    margin-top: 240px;
-    background-image: url("../../assets/logos/dark/R-alone-TKdesign-512x\ \(2\).png");
-    background-size: cover;
-    box-shadow: -40px 40px 10px rgb(35, 38, 38);
- }
- #react::before {
-    background-color: rgba(66, 67, 66, 0.374);
- }
- #react::after {
-    background-color: rgba(165, 182, 161, 0.368);
- }
- /* Nodejs */
- #nodejs {
-    margin-top: 360px;
-    background-image: url("../../assets/logos/dark/N-alone-TKdesign-512x\ \(2\).png");
-    background-size: cover;
-    box-shadow: -40px 40px 10px rgb(35, 38, 38);
- }
- #nodejs::before {
-    background-color: rgba(66, 67, 66, 0.374);
- }
- #nodejs::after {
-    background-color: rgba(165, 182, 161, 0.368);
- }
+#mongo {
+   margin-left: 20%;
+   margin-top: 2%;
+   background-image: url("../../assets/logos/dark/M-alone-TKdesign-512x\ \(3\).png");
+   background-size: cover;
+   box-shadow: -40px 40px 10px rgba(187, 206, 206, 0.226);
+}
 
- body {
+#mongo::before {
+   background-color: rgba(66, 67, 66, 0.374);
+}
+
+#mongo::after {
+   background-color: rgba(165, 182, 161, 0.368);
+}
+
+/* Express */
+#express {
+   margin-left: 40%;
+   margin-top: 2%;
+   background-image: url("../../assets/logos/dark/E-alone-TKdesign-512x\ \(2\).png");
+   background-size: cover;
+   box-shadow: -40px 40px 10px rgba(187, 206, 206, 0.226);
+}
+
+#express::before {
+   background-color: rgba(66, 67, 66, 0.374);
+}
+
+#express::after {
+   background-color: rgba(165, 182, 161, 0.368);
+}
+
+/* React */
+#react {
+   margin-left: 60%;
+   margin-top: 2%;
+   background-image: url("../../assets/logos/dark/R-alone-TKdesign-512x\ \(2\).png");
+   background-size: cover;
+   box-shadow: -40px 40px 10px rgba(187, 206, 206, 0.226);
+}
+
+#react::before {
+   background-color: rgba(66, 67, 66, 0.374);
+}
+
+#react::after {
+   background-color: rgba(165, 182, 161, 0.368);
+}
+
+/* Nodejs */
+#nodejs {
+   margin-left: 80%;
+   margin-top: 2%;
+   background-image: url("../../assets/logos/dark/N-alone-TKdesign-512x\ \(2\).png");
+   background-size: cover;
+   box-shadow: -40px 40px 10px rgba(187, 206, 206, 0.226);
+}
+
+#nodejs::before {
+   background-color: rgba(66, 67, 66, 0.374);
+}
+
+#nodejs::after {
+   background-color: rgba(179, 179, 179, 0.368);
+}
+
+body {
    min-height: 100%;
    background-attachment: fixed;
    background-position: center;
    background-size: cover;
- }
+}
+
+div.text-center.card {
+   top: 20%;
+   left: 20%;
+   width: 60%;
+   border: 3px solid #ffffff29;
+   background-color: #929392;
+   box-shadow: 0px 20px 15px rgba(187, 206, 206, 0.226);
+}

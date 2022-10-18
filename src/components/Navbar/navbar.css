@@ -1,15 +1,18 @@
 .fancyNav {
-background-color: black;
+background-color: rgb(0, 0, 0);
+display: flex;
+
+}
+div.container-fluid {
+    margin-top: 1px;
 }
 
-.brandLogo {   
-    max-width: 70px;
-    
+.brandLogo {      
+    max-width: 50px;    
 } 
 
 .logoImage.img-thumbnail{
     border-radius: 20px;
-    padding: 1px;
     background-color: rgb(32, 37, 33);
     box-shadow: -5px 5px 10px rgba(236, 246, 236, 0.72);
 }
@@ -18,7 +21,3 @@ background-color: black;
     box-shadow: -5px 5px 10px rgba(236, 246, 236, 0.72);
     border-radius: 10px;
 }
-
-/* h2.about-text {
-    border-color: black;
-} */
