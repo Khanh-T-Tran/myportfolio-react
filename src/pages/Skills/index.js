@@ -30,8 +30,7 @@ const skillsPage = () => {
                             <Button variant="secondary">React</Button>
                             <Button variant="secondary">JWT</Button>
                             <Button variant="secondary">Bootstrap</Button>
-                            <Button variant="secondary">Mui</Button>
-                            
+                            <Button variant="secondary">Mui</Button>                            
                         </Card.Body>
                         <Card.Footer className="text-muted">Click each one to see some of my code</Card.Footer>
                     </Card>
