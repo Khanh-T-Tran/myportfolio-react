@@ -1,16 +1,18 @@
-import React, { useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import Stack from 'react-bootstrap/Stack';
+import React from 'react';
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+// import required modules
+import { EffectCoverflow, Pagination } from "swiper";
 
 import "./portfolio.css";
 
 const PortfolioPage = () => {
-    const [index, setIndex] = useState(0);
-    const handleSelect = (selectedIndex, e) => {
-        setIndex(selectedIndex);
-    };
+
     return (
         <>
             <div className='carousel-area'>
@@ -18,33 +20,53 @@ const PortfolioPage = () => {
                     <h1> My Works</h1>
                 </div>
                 <div className='carousel-slide'>
-                    <Carousel className='carousel-inner' activeIndex={index} onSelect={handleSelect}>
-                        <Carousel.Item interval={9000}>
-                            {/* <Stack direction="horizontal" gap={5}> */}
-                                <Card className="text-center">
-                                    <Card.Header>Featured</Card.Header>
-                                    <Card.Img variant="top" src="holder.js/100px180" />
-                                    <Card.Body>
-                                        <Card.Title>Card Title</Card.Title>
-                                        <Card.Text>
-                                            Some quick example text to build on the card title and make up the
-                                            bulk of the card's content.
-                                        </Card.Text>
-                                        <Button variant="primary">Go somewhere</Button>
-                                    </Card.Body>
-                                </Card>
-                                
-                            {/* </Stack> */}
-
-                        </Carousel.Item>
-
-
-                    </Carousel>
+                    <Swiper
+                        effect={"coverflow"}
+                        grabCursor={true}
+                        centeredSlides={true}
+                        slidesPerView={"auto"}
+                        coverflowEffect={{
+                            rotate: 50,
+                            stretch: 0,
+                            depth: 50,
+                            modifier: 1,
+                            slideShadows: true,
+                        }}
+                        pagination={true}
+                        modules={[EffectCoverflow, Pagination]}
+                        className="mySwiper"
+                    >
+                        <SwiperSlide>
+                            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                        </SwiperSlide>
+                    </Swiper>
                 </div>
             </div>
-
         </>
-
     )
 }
 

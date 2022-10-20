@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css';
+
 // import pages
 import Home from './pages/Home';
 import About from './pages/About';
@@ -12,6 +12,9 @@ import Footer from './components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// eslint-disable-next-line
+import "swiper/css/bundle";
+import './App.css';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home');
