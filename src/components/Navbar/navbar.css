@@ -1,7 +1,7 @@
 .fancyNav {
 background-color: rgb(0, 0, 0);
 display: flex;
-
+/* position: fixed; */
 }
 div.container-fluid {
     margin-top: 1px;
