@@ -1,5 +1,5 @@
 import './skills.css';
-import Button from 'react-bootstrap/Button';
+import Badge from 'react-bootstrap/Badge';
 import Card from 'react-bootstrap/Card';
 
 const skillsPage = () => {
@@ -8,31 +8,38 @@ const skillsPage = () => {
         <>
             <main>
                 <div className='hero-image'>
-                    <div className='cube' id='mongo'></div>
-                    <div className='cube' id='express'></div>
-                    <div className='cube' id='react'></div>
-                    <div className='cube' id='nodejs'></div>
+                    <a className='cube' id='mongo' target="_blank" rel="noreferrer" href='https://www.mongodb.com/'><p></p></a>
+                    <a className='cube' id='express' target="_blank" rel="noreferrer" href='https://expressjs.com/'><p></p></a>
+                    <a className='cube' id='react' target="_blank" rel="noreferrer" href='https://reactjs.org/'><p></p></a>
+                    <a className='cube' id='nodejs' target="_blank" rel="noreferrer" href='https://nodejs.org/en/'><p></p></a>
+
+                    <div ></div>
+                    <div ></div>
+                    <div ></div>
 
                     <Card className="text-center">
                         <Card.Header>My skills</Card.Header>
-                        <Card.Body>                           
-                            <Button variant="secondary">HTML</Button>
-                            <Button variant="secondary">CSS</Button>
-                            <Button variant="secondary">JavaScript</Button>
-                            <Button variant="secondary">Git</Button>
-                            <Button variant="secondary">Restful APIs</Button>
-                            <Button variant="secondary">GitHub</Button>
-                            <Button variant="secondary">Nodejs</Button>
-                            <Button variant="secondary">OOP</Button>
-                            <Button variant="secondary">Express</Button>
-                            <Button variant="secondary">SQL</Button>
-                            <Button variant="secondary">MongoDB</Button>
-                            <Button variant="secondary">React</Button>
-                            <Button variant="secondary">JWT</Button>
-                            <Button variant="secondary">Bootstrap</Button>
-                            <Button variant="secondary">Mui</Button>                            
+                        <Card.Body>
+                            <h4>
+                                <Badge bg="secondary">HTML</Badge>
+                                <Badge bg="secondary">CSS</Badge>
+                                <Badge bg="secondary">JavaScript</Badge>
+                                <Badge bg="secondary">Git</Badge>
+                                <Badge bg="secondary">Restful APIs</Badge>
+                                <Badge bg="secondary">GitHub</Badge>
+                                <Badge bg="secondary">Nodejs</Badge>
+                                <Badge bg="secondary">OOP</Badge>
+                                <Badge bg="secondary">Express</Badge>
+                                <Badge bg="secondary">SQL</Badge>
+                                <Badge bg="secondary">MongoDB</Badge>
+                                <Badge bg="secondary">React</Badge>
+                                <Badge bg="secondary">JWT</Badge>
+                                <Badge bg="secondary">Bootstrap</Badge>
+                                <Badge bg="secondary">Mui</Badge>
+                                <Badge bg="secondary">MySQL</Badge>
+                            </h4>
                         </Card.Body>
-                        <Card.Footer className="text-muted">Click each one to see some of my code</Card.Footer>
+                        <Card.Footer className="text-muted">These are what I have used but not limited to!</Card.Footer>
                     </Card>
                 </div>
 

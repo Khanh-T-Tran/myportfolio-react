@@ -4,20 +4,20 @@ import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import './contact.css';
 
 const ContactPage = () => {
-    // Create state variables for the fields in the form
-    // We are also setting their initial values to an empty string
+    // Create state variables and initial them with empty string
+    
     const [username, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
 
     const handleInputChange = (e) => {
-        // Getting the value and name of the input which triggered the change
+        // target input 
         const { target } = e;
         const inputType = target.name;
         const inputValue = target.value;
 
-        // Based on the input type, we set the state of either name,email and password
+        // setting the state for all the input 
         if (inputType === 'username') {
             setName(inputValue);
         }
@@ -35,21 +35,19 @@ const ContactPage = () => {
     }
 
     const handleFormSubmit = (e) => {
-        // Preventing the default behavior of the form submit (which is to refresh the page)
+        // Prevent browser from refreshing the page after click submit/sent
         e.preventDefault();
 
-        // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
+        // Check if all the input are invalid
         if (!username || !validateEmail(email) || !message) {
             setErrorMessage('Name, Email or Message is invalid');
-            // We want to exit out of this code block if something is wrong so that the user can correct it
+            // this will exit if something went wrong
             return;
-            // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
+            // set error message if input is invalid
         } else {
             setErrorMessage('Message sent!');
         }
-        // alert(`Hello ${username}${email}${message}`);
-
-        // If everything goes according to plan, we want to clear out the input.
+        // set empty input if everything ok
         setName('');
         setEmail('');
         setMessage('');
