@@ -1,27 +1,27 @@
 .carousel-area {
-    background-color: rgb(66, 66, 66);
-    text-align: center;
-    display: block;  
-    height: 100vh;
-    width: 100%;
-    
+  background-image: linear-gradient(-360deg, rgba(0, 0, 0, 0.558) 7.8%, rgb(0, 0, 0) 100.3%);
+  text-align: center;
+  display: block;
+  height: 100vh;
+  width: 100%;
+
 }
 
 .carousel-slide {
-   padding-bottom: 50%;
-    width: 100%;
-    height: 100%;
-    /* background-color: rgb(34, 193, 193); */
-   
+  padding-bottom: 50%;
+  width: 100%;
+  height: 100%;
 }
 
-.carousel-inner {   
-    padding: 10px;
-    
+.carousel-inner {
+  padding: 10px;
 }
 
 /* swiper css */
-#app { height: 100% }
+#app {
+  height: 100%
+}
+
 html,
 body {
   position: relative;
@@ -44,38 +44,18 @@ body {
 }
 
 .swiper-slide {
-  
   text-align: center;
   font-size: 18px;
   background: rgba(84, 84, 84, 0);
-  /* slides style */
-  /* border-radius: 550px; */
-  /* Center slide text vertically */
-  /* display: -webkit-box; */
-  /* display: -ms-flexbox; */
-  /* display: -webkit-flex; */
   display: flex;
   margin-top: 5%;
-  /* padding-bottom: 1%; */
-  /* margin-bottom: 10%; */
-  /* -webkit-box-pack: center; */
-  /* -ms-flex-pack: center; */
-  /* -webkit-justify-content: center; */
-  /* justify-content: center; */
-  /* -webkit-box-align: center; */
-  /* -ms-flex-align: center; */
-  /* -webkit-align-items: center; */
-  /* align-items: center; */
   flex-direction: column;
 }
 
 .swiper-slide img {
   flex-direction: column;
-  /* display: block; */
   width: 100%;
   height: 80%;
-  /* border-radius: 700px; */
-  /* object-fit: cover; */
   border: 1px solid #908f8f;
   border-bottom: 0px;
 }
@@ -83,10 +63,8 @@ body {
 .project-content {
   border: 1px solid #908f8f;
   border-top: 0px;
-  /* border-radius: 700px; */
   background-color: rgb(255, 255, 255);
   display: flex;
-  /* justify-content: start; */
   width: 100%;
   height: 20%;
 }
@@ -95,12 +73,12 @@ p {
   margin: 5%;
 }
 
-
 @media only screen and (max-width : 420px) {
   .swiper {
     width: 90%;
-    height: 65%;  
+    height: 65%;
   }
+
   .swiper-slide {
     margin-top: 15%;
   }

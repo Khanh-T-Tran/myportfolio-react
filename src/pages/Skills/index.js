@@ -3,7 +3,6 @@ import Badge from 'react-bootstrap/Badge';
 import Card from 'react-bootstrap/Card';
 
 const skillsPage = () => {
-
     return (
         <>
             <main>
@@ -13,14 +12,10 @@ const skillsPage = () => {
                     <a className='cube' id='react' target="_blank" rel="noreferrer" href='https://reactjs.org/'><p></p></a>
                     <a className='cube' id='nodejs' target="_blank" rel="noreferrer" href='https://nodejs.org/en/'><p></p></a>
 
-                    <div ></div>
-                    <div ></div>
-                    <div ></div>
-
                     <Card className="text-center">
                         <Card.Header>My skills</Card.Header>
                         <Card.Body>
-                            <h4>
+                            <h5>
                                 <Badge bg="secondary">HTML</Badge>
                                 <Badge bg="secondary">CSS</Badge>
                                 <Badge bg="secondary">JavaScript</Badge>
@@ -37,7 +32,7 @@ const skillsPage = () => {
                                 <Badge bg="secondary">Bootstrap</Badge>
                                 <Badge bg="secondary">Mui</Badge>
                                 <Badge bg="secondary">MySQL</Badge>
-                            </h4>
+                            </h5>
                         </Card.Body>
                         <Card.Footer className="text-muted">These are what I have used but not limited to!</Card.Footer>
                     </Card>

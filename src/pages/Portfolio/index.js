@@ -10,7 +10,6 @@ import "swiper/css";
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 
-
 // import required modules
 import { EffectCube, Pagination } from "swiper";
 
@@ -105,7 +104,6 @@ const PortfolioPage = () => {
                                 shadowOffset: 120,
                                 shadowScale: 0.84,
                             }}
-
                             modules={[EffectCube, Pagination]}
                             className="mySwiper"
                         >

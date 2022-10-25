@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
+import Button from 'react-bootstrap/Button';
 import './contact.css';
 
 const ContactPage = () => {
@@ -85,7 +86,7 @@ const ContactPage = () => {
                             type="text"
                             placeholder="message"
                         />
-                        <button className='submit' type="button" onClick={handleFormSubmit}>Send <FontAwesomeIcon icon={faPaperPlane} /></button>
+                        <Button  variant="secondary" className='submit' type="button" onClick={handleFormSubmit}>Send <FontAwesomeIcon icon={faPaperPlane} /></Button>
                     </div>
                 </form>
 

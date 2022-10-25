@@ -10,14 +10,14 @@ div.text-center.card {
    left: 20%;
    width: 62%;
    border: 3px solid #ffffff29;
-   background-color: #929392;
+   background-color: #f7f7f7;
    box-shadow: 0px 20px 15px rgba(206, 187, 187, 0.226);
 }
 
 div.hero-image {
    height: 100vh;
    width: 100%;
-   background-color: #1c1c1c;
+   background-image: linear-gradient( -360deg,  rgba(0, 0, 0, 0.67) 7.8%, rgb(0, 0, 0) 100.3% );
 }
 
 /* this is the cube dimentions */
@@ -117,4 +117,17 @@ div.hero-image {
    background-color: rgba(179, 179, 179, 0.368);
 }
 
-
+@media only screen and (max-width : 420px) {
+   #mongo {
+      margin-left: 15%;
+   }
+   #express {
+      margin-left: 35%;
+   }
+   #react {
+      margin-left: 55%;
+   }
+   #nodejs {
+      margin-left: 75%;
+   }
+}
