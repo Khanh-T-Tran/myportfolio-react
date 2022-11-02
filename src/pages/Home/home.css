@@ -1,7 +1,6 @@
 /* this one for adjust background image */
-img.img-fluid {
-    background-size: 100% 100vh;
-    min-height: 100vh;
+img.img-fluid {   
+    min-height: 100vh;   
 }
 /* this one for stop page from scrolling */
 body {

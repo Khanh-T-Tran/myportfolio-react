@@ -34,10 +34,9 @@ const skillsPage = () => {
                                 <Badge bg="secondary">MySQL</Badge>
                             </h5>
                         </Card.Body>
-                        <Card.Footer className="text-muted">These are what I have used but not limited to!</Card.Footer>
+                        <Card.Footer className="text-muted">These are what I have but not limited to!</Card.Footer>
                     </Card>
                 </div>
-
             </main>
         </>
     )

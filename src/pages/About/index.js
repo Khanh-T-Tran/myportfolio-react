@@ -10,9 +10,7 @@ const aboutPage = () => {
                     &ensp; &ensp;Since completing a certificate in Full Stack Web Development at UC Berkeley of California, I am continuing to sharpen my skills by taking more online courses of modern technologies in this field. <br></br>
                     &ensp; &ensp;You can find me reading book on my fishing boat while waiting for fish bites &#128516;, or hiking on beautiful trails somewhere in the Bay Area when I am not coding.
                 </h2>
-
             </div>
-
         </>
     )
 }
