@@ -37,6 +37,7 @@ const skillsPage = () => {
                         <Card.Footer className="text-muted">These are what I have but not limited to!</Card.Footer>
                     </Card>
                 </div>
+
             </main>
         </>
     )
