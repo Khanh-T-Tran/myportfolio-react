@@ -6,3 +6,21 @@ img.img-fluid {
 body {
     overflow: hidden;
 }
+
+.imageDiv {
+    background-image: linear-gradient( -360deg,  rgb(116, 117, 117) 7.8%, rgb(0, 0, 0) 100.3% );  
+}
+
+.imageDiv>:nth-child(1) {
+    transform: scale(0.5);
+    right : 5rem
+    
+}
+.imageDiv>:nth-child(2) {
+    transform: scale(0.5);
+    right : 10rem    
+}
+.imageDiv>:nth-child(3) {
+    transform: scale(0.5);
+    right : 15rem    
+}
