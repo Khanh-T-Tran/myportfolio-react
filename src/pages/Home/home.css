@@ -1,26 +1,15 @@
-/* this one for adjust background image */
-img.img-fluid {   
-    min-height: 100vh;   
-}
-/* this one for stop page from scrolling */
-body {
-    overflow: hidden;
+.stars, .twinkling, .clouds
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
-.imageDiv {
-    background-image: linear-gradient( -360deg,  rgb(116, 117, 117) 7.8%, rgb(0, 0, 0) 100.3% );  
-}
-
-.imageDiv>:nth-child(1) {
-    transform: scale(0.5);
-    right : 5rem
-    
-}
-.imageDiv>:nth-child(2) {
-    transform: scale(0.5);
-    right : 10rem    
-}
-.imageDiv>:nth-child(3) {
-    transform: scale(0.5);
-    right : 15rem    
+.stars{
+    background: #000 url();
 }
