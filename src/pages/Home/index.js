@@ -4,14 +4,17 @@ import "bootstrap/dist/css/bootstrap.css";
 import 'animate.css';
 import './home.css';
 
-// import Hoody from "../../assets/images/hoody.png"
+import darksky from '../../assets/images/darksky-stars.png';
+import spot from '../../assets/images/darkspots.png';
+// import cloud from '../../assets/images/darkcloud.png';
 
 const homePage = () => {
     return (
         <>
-            <div className="stars"></div>
-            <div className="twinkling"></div>
-            <div className="clouds"></div>
+            <div className="stars" style={{backgroundImage: `url(${darksky})` }}></div>
+            <div className="twinkling" style={{backgroundImage: `url(${spot})` }}></div>
+            {/* <div className="clouds" style={{backgroundImage: `url(${cloud})` }}></div> */}
+            <div className="text"> Hi! I am Khanh Tran, an enthusiastic full-stack web developer.</div>
         </>
     )
 }

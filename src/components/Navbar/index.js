@@ -15,7 +15,6 @@ const fancyHeader = (props) => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="justify-content-end flex-grow-1 pe-3">
                             <Nav.Link className="tabs" href="#home" onClick={() => { props.changePage("Home") }}>Home</Nav.Link>
-                            <Nav.Link className="tabs" href="#about" onClick={() => { props.changePage("About") }}>About</Nav.Link>
                             <Nav.Link className="tabs" href="#skills" onClick={() => { props.changePage("Skills") }}>Skills</Nav.Link>
                             <Nav.Link className="tabs" href="#portfolio" onClick={() => { props.changePage("Portfolio") }}>Portfolio</Nav.Link>
                             <Nav.Link className="tabs" href="#contact" onClick={() => { props.changePage("Contact") }}>Contact</Nav.Link>

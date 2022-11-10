@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 // import pages
 import Home from './pages/Home';
-import About from './pages/About';
 import Skills from './pages/Skills';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
@@ -26,8 +25,6 @@ function App() {
     switch (currentPage) {
       case "Home":
         return <Home />;
-      case "About":
-        return <About />;
       case "Skills":
         return <Skills />;
       case "Portfolio":
