@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/myportfolio-react/static/css/main.b481707c.css",
+    "main.js": "/myportfolio-react/static/js/main.699a2cee.js",
+    "static/media/darksky-stars.png": "/myportfolio-react/static/media/darksky-stars.2c783182a8b5615af579.png",
+    "static/media/R-alone-TKdesign-512x (2).png": "/myportfolio-react/static/media/R-alone-TKdesign-512x (2).f85f2be5d0e1dac69632.png",
+    "static/media/M-alone-TKdesign-512x (3).png": "/myportfolio-react/static/media/M-alone-TKdesign-512x (3).cdb4aa17eaafac2de7c8.png",
+    "static/media/N-alone-TKdesign-512x (2).png": "/myportfolio-react/static/media/N-alone-TKdesign-512x (2).fa383f1c55be62f29023.png",
+    "static/media/E-alone-TKdesign-512x (2).png": "/myportfolio-react/static/media/E-alone-TKdesign-512x (2).f571029f22ea40893af4.png",
+    "static/media/WeatherDashboard.png": "/myportfolio-react/static/media/WeatherDashboard.94e091135ee18c1256b3.png",
+    "static/media/WorkdayScheduler.png": "/myportfolio-react/static/media/WorkdayScheduler.52a5877571ea0676340d.png",
+    "static/media/clouds.png": "/myportfolio-react/static/media/clouds.8025af6599d4c40fe37e.png",
+    "static/media/CodeQuiz.png": "/myportfolio-react/static/media/CodeQuiz.e21a6db7dc7f5a36d238.png",
+    "static/media/NoteTaker.png": "/myportfolio-react/static/media/NoteTaker.8e1faac8825ae116d4e3.png",
+    "static/media/TechBlog.png": "/myportfolio-react/static/media/TechBlog.c57e86d6f39bf1c7caa8.png",
+    "static/media/darkspots.png": "/myportfolio-react/static/media/darkspots.f893bce4028fa0f183a6.png",
+    "static/media/TextEditor.png": "/myportfolio-react/static/media/TextEditor.a0a34142707a34d63c2f.png",
+    "index.html": "/myportfolio-react/index.html",
+    "main.b481707c.css.map": "/myportfolio-react/static/css/main.b481707c.css.map",
+    "main.699a2cee.js.map": "/myportfolio-react/static/js/main.699a2cee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b481707c.css",
+    "static/js/main.699a2cee.js"
+  ]
+}
