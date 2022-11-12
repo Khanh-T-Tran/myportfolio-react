@@ -1,5 +1,4 @@
 import React from "react";
-// import Image from 'react-bootstrap/Image';
 import "bootstrap/dist/css/bootstrap.css";
 import 'animate.css';
 import './home.css';
