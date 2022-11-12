@@ -10,7 +10,7 @@
 
 .stars {
     background: #000 top center;
-    /* background-size: cover; */
+    background-size: cover;
     z-index: 0;
 }
 
