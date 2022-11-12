@@ -118,6 +118,21 @@ div.hero-image {
    background-color: rgba(179, 179, 179, 0.368);
 }
 
+div.card-header{
+   background-color: rgb(166, 166, 166);
+}
+
+div.text-muted.card-footer{
+   background-color: rgb(200, 200, 200);
+}
+div.card-title.h5{
+   margin:0px 0px 0px
+}
+div.card-body{
+   padding: 10px;
+
+}
+
 @media only screen and (max-width : 420px) {
    #mongo {
       margin-left: 15%;
@@ -131,4 +146,24 @@ div.hero-image {
    #nodejs {
       margin-left: 75%;
    }
+}
+
+@media only screen and (max-width: 375px) {
+   /* div.text-center{
+      font-size: 13px;
+   } */
+   
+   div.tex-center.card{
+      top: 15%;
+   }
+   div.card-body{
+      padding: 5px;
+   
+   }
+}
+@media only screen and (max-width: 375px) {
+   div.text-center{
+      font-size: 13px;
+   }
+   
 }

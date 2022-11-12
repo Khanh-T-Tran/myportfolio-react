@@ -13,6 +13,14 @@ import "swiper/css/pagination";
 // import required modules
 import { EffectCube, Pagination } from "swiper";
 
+// import project images
+import codeQuiz from '../../assets/images/projects/CodeQuiz.png';
+import NoteTaker from '../../assets/images/projects/NoteTaker.png';
+import TechBlog from '../../assets/images/projects/TechBlog.png';
+import TextEditor from '../../assets/images/projects/TextEditor.png';
+import WeatherDashboard from '../../assets/images/projects/WeatherDashboard.png';
+import WorkdayScheduler from '../../assets/images/projects/WorkdayScheduler.png';
+
 import "./portfolio.css";
 
 const PortfolioPage = () => {
@@ -44,7 +52,7 @@ const PortfolioPage = () => {
                             className="mySwiper"
                         >
                             <SwiperSlide>
-                                <img src="https://raw.githubusercontent.com/Khanh-T-Tran/myportfolio-react/main/src/assets/images/projects/projectImages/WorkdayScheduler.png" alt='projectImages' />
+                                <img src={WorkdayScheduler} alt='projectImages' />
                                 <div className='project-content' >
                                     <Card.Body>
                                         <Card.Title>Work Day Scheduler</Card.Title>
@@ -56,7 +64,7 @@ const PortfolioPage = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://raw.githubusercontent.com/Khanh-T-Tran/myportfolio-react/main/src/assets/images/projects/projectImages/WeatherDashboard.png" alt='projectImages' />
+                                <img src={WeatherDashboard} alt='projectImages' />
                                 <div className='project-content' >
                                     <Card.Body>
                                         <Card.Title>Weather Dashboard</Card.Title>
@@ -68,7 +76,7 @@ const PortfolioPage = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://raw.githubusercontent.com/Khanh-T-Tran/myportfolio-react/main/src/assets/images/projects/projectImages/TextEditor.png" alt='projectImages' />
+                                <img src={TextEditor} alt='projectImages' />
                                 <div className='project-content' >
                                     <Card.Body>
                                         <Card.Title>Text Editor</Card.Title>
@@ -80,7 +88,7 @@ const PortfolioPage = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://raw.githubusercontent.com/Khanh-T-Tran/myportfolio-react/main/src/assets/images/projects/projectImages/TechBlog.png" alt='projectImages' />
+                                <img src={TechBlog} alt='projectImages' />
                                 <div className='project-content' >
                                     <Card.Body>
                                         <Card.Title>The Tech Blog</Card.Title>
@@ -108,7 +116,7 @@ const PortfolioPage = () => {
                             className="mySwiper"
                         >
                             <SwiperSlide>                             
-                                <img src="https://raw.githubusercontent.com/Khanh-T-Tran/myportfolio-react/main/src/assets/images/projects/projectImages/NoteTaker.png" alt='projectImages' />
+                                <img src={NoteTaker} alt='projectImages' />
                                 <div className='project-content' >
                                     <Card.Body>
                                         <Card.Title>Note Taker</Card.Title>
@@ -120,7 +128,7 @@ const PortfolioPage = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://raw.githubusercontent.com/Khanh-T-Tran/myportfolio-react/main/src/assets/images/projects/projectImages/CodeQuiz.png" alt='projectImages' />
+                                <img src={codeQuiz} alt='projectImages' />
                                 <div className='project-content' >
                                     <Card.Body>
                                         <Card.Title>Coding Quiz</Card.Title>
