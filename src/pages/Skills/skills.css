@@ -149,10 +149,9 @@ div.card-body{
 }
 
 @media only screen and (max-width: 375px) {
-   /* div.text-center{
+   div.text-center{
       font-size: 13px;
-   } */
-   
+   }
    div.tex-center.card{
       top: 15%;
    }
@@ -161,9 +160,8 @@ div.card-body{
    
    }
 }
-@media only screen and (max-width: 375px) {
-   div.text-center{
-      font-size: 13px;
-   }
-   
+@media only screen and (max-width: 280px) {
+div.card-title.h5{
+   font-size: 15px;
+}
 }

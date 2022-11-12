@@ -16,3 +16,13 @@
     color: rgba(255, 255, 255, 0.565);
 }
 
+a.copyright {
+   /* width: 230px; */
+   font-size: medium;
+   /* display: flex; */
+   /* justify-content: center; */
+}
+p {
+    text-align: center;
+    margin-bottom: 0rem;
+}

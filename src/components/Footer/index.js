@@ -3,11 +3,11 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import "../Footer/footer.css";
 
-// const Copyright = () => {
-//     return (
-//         <a className="copyright" href="https://github.com/Khanh-T-Tran" target="_blank" rel="noreferrer"> <p>Copyright © KhanhTran {new Date().getFullYear()}</p></a>
-//     )
-// };
+const Copyright = () => {
+    return (
+        <a className="copyright" href="https://github.com/Khanh-T-Tran" target="_blank" rel="noreferrer"> <p>Copyright © KhanhTran {new Date().getFullYear()}</p></a>
+    )
+};
 
 const stinkyFooter = () => {
     return (
@@ -16,7 +16,8 @@ const stinkyFooter = () => {
                 <div className="d-flex justify-content-center social-media-icons-white">
                     <a href="https://github.com/Khanh-T-Tran" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faGithub} />            
-                    </a>                    
+                    </a>
+                    <Copyright/>                  
                     <a href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
