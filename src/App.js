@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 // import components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Background from './components/Background';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -39,6 +40,7 @@ function App() {
   return (
     <>
       <Navbar changePage={changePage} />
+     <Background/>
       {renderPage()}
       <Footer />
     </>
