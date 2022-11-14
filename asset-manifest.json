@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/myportfolio-react/static/css/main.ee746e12.css",
+    "main.css": "/myportfolio-react/static/css/main.9be22e02.css",
     "main.js": "/myportfolio-react/static/js/main.7a81c333.js",
     "static/media/darksky-stars.png": "/myportfolio-react/static/media/darksky-stars.b81d438b046bc46d4a09.png",
     "static/media/R-alone-TKdesign-512x (2).png": "/myportfolio-react/static/media/R-alone-TKdesign-512x (2).f85f2be5d0e1dac69632.png",
@@ -16,11 +16,11 @@
     "static/media/darkspots.png": "/myportfolio-react/static/media/darkspots.f893bce4028fa0f183a6.png",
     "static/media/TextEditor.png": "/myportfolio-react/static/media/TextEditor.a0a34142707a34d63c2f.png",
     "index.html": "/myportfolio-react/index.html",
-    "main.ee746e12.css.map": "/myportfolio-react/static/css/main.ee746e12.css.map",
+    "main.9be22e02.css.map": "/myportfolio-react/static/css/main.9be22e02.css.map",
     "main.7a81c333.js.map": "/myportfolio-react/static/js/main.7a81c333.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee746e12.css",
+    "static/css/main.9be22e02.css",
     "static/js/main.7a81c333.js"
   ]
 }
