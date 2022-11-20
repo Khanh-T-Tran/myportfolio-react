@@ -20,6 +20,7 @@ import TechBlog from '../../assets/images/projects/TechBlog.png';
 import TextEditor from '../../assets/images/projects/TextEditor.png';
 import WeatherDashboard from '../../assets/images/projects/WeatherDashboard.png';
 import WorkdayScheduler from '../../assets/images/projects/WorkdayScheduler.png';
+import PasswordGenerator from '../../assets/images/projects/passwordGenerator.png';
 
 import "./portfolio.css";
 
@@ -140,13 +141,13 @@ const PortfolioPage = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt='projectImages' />
+                                <img src={PasswordGenerator} alt='projectImages' />
                                 <div className='project-content' >
                                     <Card.Body>
-                                        <Card.Title>Coming soon ...</Card.Title>
+                                        <Card.Title>Password Generator</Card.Title>
                                         <Card.Text>
-                                            <Button size="sm" variant="light" href='' target='_blank'>CODE</Button>
-                                            <Button size="sm" variant="light" href='' target='_blank'>SITE</Button>
+                                            <Button size="sm" variant="light" href='https://github.com/Khanh-T-Tran/Password_generator' target='_blank'>CODE</Button>
+                                            <Button size="sm" variant="light" href='https://khanh-t-tran.github.io/Password_generator/' target='_blank'>SITE</Button>
                                         </Card.Text>
                                     </Card.Body>
                                 </div>
