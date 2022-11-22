@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio-react/static/css/main.9be22e02.css",
-    "main.js": "/myportfolio-react/static/js/main.7a81c333.js",
+    "main.js": "/myportfolio-react/static/js/main.30e2a4a3.js",
     "static/media/darksky-stars.png": "/myportfolio-react/static/media/darksky-stars.b81d438b046bc46d4a09.png",
     "static/media/R-alone-TKdesign-512x (2).png": "/myportfolio-react/static/media/R-alone-TKdesign-512x (2).f85f2be5d0e1dac69632.png",
     "static/media/M-alone-TKdesign-512x (3).png": "/myportfolio-react/static/media/M-alone-TKdesign-512x (3).cdb4aa17eaafac2de7c8.png",
@@ -12,15 +12,16 @@
     "static/media/clouds.png": "/myportfolio-react/static/media/clouds.8025af6599d4c40fe37e.png",
     "static/media/CodeQuiz.png": "/myportfolio-react/static/media/CodeQuiz.e21a6db7dc7f5a36d238.png",
     "static/media/NoteTaker.png": "/myportfolio-react/static/media/NoteTaker.8e1faac8825ae116d4e3.png",
+    "static/media/passwordGenerator.png": "/myportfolio-react/static/media/passwordGenerator.f4beb5642b033eb914fd.png",
     "static/media/TechBlog.png": "/myportfolio-react/static/media/TechBlog.c57e86d6f39bf1c7caa8.png",
     "static/media/darkspots.png": "/myportfolio-react/static/media/darkspots.f893bce4028fa0f183a6.png",
     "static/media/TextEditor.png": "/myportfolio-react/static/media/TextEditor.a0a34142707a34d63c2f.png",
     "index.html": "/myportfolio-react/index.html",
     "main.9be22e02.css.map": "/myportfolio-react/static/css/main.9be22e02.css.map",
-    "main.7a81c333.js.map": "/myportfolio-react/static/js/main.7a81c333.js.map"
+    "main.30e2a4a3.js.map": "/myportfolio-react/static/js/main.30e2a4a3.js.map"
   },
   "entrypoints": [
     "static/css/main.9be22e02.css",
-    "static/js/main.7a81c333.js"
+    "static/js/main.30e2a4a3.js"
   ]
 }
